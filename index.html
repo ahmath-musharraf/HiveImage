@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Primary Meta Tags -->
+  <title>Hive Image | Premium UK Electronics & Home Appliances</title>
+  <meta name="title" content="Hive Image | Premium UK Electronics & Home Appliances">
+  <meta name="description" content="Hive Image is the UK's premier destination for high-end electronics and intelligent home appliances. Shop smartphones, laptops, and smart kitchenware with next-day UK delivery.">
+  <meta name="keywords" content="electronics UK, home appliances London, smart home devices, smartphones UK, premium laptops, kitchen appliances, Hive Image UK">
+  <meta name="author" content="Hive Image UK Limited">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#2563eb">
+  <link rel="canonical" href="https://hiveimage.co.uk/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hiveimage.co.uk/">
+  <meta property="og:title" content="Hive Image | Premium UK Electronics & Home Appliances">
+  <meta property="og:description" content="Shop the most curated selection of flagship electronics and smart appliances in the UK. Free express delivery on orders over £100.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&q=80&w=1200">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://hiveimage.co.uk/">
+  <meta property="twitter:title" content="Hive Image | Premium UK Electronics & Home Appliances">
+  <meta property="twitter:description" content="The UK's flagship tech outlet. Next-day delivery and 2-year warranty on all premium electronics.">
+  <meta property="twitter:image" content="https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&q=80&w=1200">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%232563eb%22/><text x=%2250%%22 y=%2250%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2260%22 fill=%22white%22>H</text></svg>">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Structured Data: Organization -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Hive Image UK Limited",
+      "url": "https://hiveimage.co.uk/",
+      "logo": "https://hiveimage.co.uk/logo.png",
+      "description": "Premium UK-based electronics and home appliance retailer providing flagship products with top-tier customer service.",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+44-7469-535612",
+        "contactType": "customer service",
+        "areaServed": "GB",
+        "availableLanguage": "en"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "56 Outram Road",
+        "addressLocality": "London",
+        "postalCode": "E6 1JR",
+        "addressCountry": "GB"
+      },
+      "sameAs": [
+        "https://www.facebook.com/hiveimage",
+        "https://www.instagram.com/hiveimage",
+        "https://www.linkedin.com/company/hiveimage"
+      ]
+    }
+  </script>
+
+  <style>
+    :root {
+      --primary: #2563eb;
+      --secondary: #7c3aed;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      scroll-behavior: smooth;
+      -webkit-font-smoothing: antialiased;
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    .text-gradient {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    @keyframes pop {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+    @keyframes price-jump {
+      0% { transform: scale(1); color: inherit; }
+      50% { transform: scale(1.1); color: var(--primary); }
+      100% { transform: scale(1); color: inherit; }
+    }
+    @keyframes shimmer {
+      0% { background-position: -1000px 0; }
+      100% { background-position: 1000px 0; }
+    }
+    .skeleton {
+      background: linear-gradient(90deg, #f1f5f9 25%, #e2e8f0 50%, #f1f5f9 75%);
+      background-size: 1000px 100%;
+      animation: shimmer 2s infinite linear;
+    }
+    @keyframes slideUp {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    .animate-pop { animation: pop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+    .animate-price-jump { animation: price-jump 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+    .animate-slide-up { animation: slideUp 0.6s ease-out forwards; }
+    .animate-float { animation: float 4s ease-in-out infinite; }
+    
+    .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+    .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+    .view-transition {
+      animation: fadeIn 0.4s ease-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.995); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.34.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-[#f8fafc] text-slate-900 selection:bg-blue-100 selection:text-blue-700">
+  <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
