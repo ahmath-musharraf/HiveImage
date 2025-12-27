@@ -9,7 +9,7 @@ export const BRAND = {
   logoIcon: 'fa-camera-retro', // Changed from bolt to camera-retro to match "Image" theme
   supportPhone: '+44 7469 535612',
   supportEmail: 'support@hiveimage.co.uk',
-  address: 'One Canada Square, Canary Wharf, London, E14 5AB, UK'
+  address: '56 Outram Road, London E6 1JR'
 };
 
 const MOCK_REVIEWS = [
