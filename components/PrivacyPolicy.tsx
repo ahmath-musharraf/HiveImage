@@ -37,7 +37,7 @@ export const PrivacyPolicy: React.FC<PrivacyPolicyProps> = ({ setView }) => {
           <div className="p-8 rounded-3xl bg-blue-50 border border-blue-100">
             <h3 className="text-xl font-bold text-slate-900 mb-4">Your Legal Rights</h3>
             <p className="text-slate-600 text-sm leading-relaxed">
-              Under certain circumstances, you have rights under data protection laws in relation to your personal data, including the right to request access, correction, erasure, or restriction of your personal data. To exercise any of these rights, please contact our Data Officer at privacy@volthive.co.uk.
+              Under certain circumstances, you have rights under data protection laws in relation to your personal data, including the right to request access, correction, erasure, or restriction of your personal data. To exercise any of these rights, please contact our Data Officer at privacy@hiveimage.co.uk.
             </p>
           </div>
         </div>
